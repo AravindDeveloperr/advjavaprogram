@@ -1,0 +1,21 @@
+package com.sathya.orm;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ProductMapper {
+	
+	//This method taking model class as input & return entity class as output
+	 
+	
+	public Product modelToEntityConversion(ProductDetails productDetails) {
+		
+		
+		// read the data from model class set to entity class
+		
+		Product product= new Product();
+		product.setProId()
+	}
+	
+
+}

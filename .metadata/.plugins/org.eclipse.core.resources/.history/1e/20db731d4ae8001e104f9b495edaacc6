@@ -1,0 +1,6 @@
+insert into book values (111,'corejava','ratan',250);
+insert into book values (222,'adjava','ratan',350);
+insert into book values (333,'springjava','ratan',450);
+insert into book values (444,'SpringBoot','ratan',550);
+insert into book values (555,'python','ratan',650);
+

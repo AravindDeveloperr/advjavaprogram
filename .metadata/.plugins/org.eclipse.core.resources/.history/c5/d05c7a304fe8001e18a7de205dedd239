@@ -1,0 +1,7 @@
+spring.application.name=SpringDataJPQL
+spring.datasource.url = jdbc:mysql://Localhost:3306/aravind
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform=org.hibernate.dialect.MYSQLDialect
+spring.sql.init.mode=always

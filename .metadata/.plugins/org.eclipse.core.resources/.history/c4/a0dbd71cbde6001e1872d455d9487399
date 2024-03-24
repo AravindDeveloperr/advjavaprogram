@@ -1,0 +1,23 @@
+package com.sathya.orm;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+
+@AutoConfiguration
+public class ProductClient implements CommandLineRunner{
+
+	@Autowired
+	ProductRepsitory productRepsitory ;
+	
+	@Autowired
+	ProductMapper mapper;
+	
+	
+	@Override
+	public void run(String... args) throws Exception {
+
+		
+	}
+
+}

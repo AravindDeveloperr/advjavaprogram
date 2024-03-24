@@ -1,0 +1,7 @@
+spring.application.name=SpringDataJpaEx
+spring.datasource.url=jdbc:h2:mem:yuvi
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=Aravind
+spring.datasource.password=aravind@123
+spring.h2.console.enabled=true
+server.port=1234

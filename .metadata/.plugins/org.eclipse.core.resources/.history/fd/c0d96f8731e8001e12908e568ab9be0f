@@ -1,0 +1,8 @@
+package com.sathya.orm;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class PersonClient implements CommandLineRunner {
+	
+
+}

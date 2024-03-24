@@ -1,0 +1,52 @@
+package com.sathya.orm.mapper;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.sathya.orm.Person;
+import com.sathya.orm.details.PersonDetails;
+
+public class PersonMapper {
+
+	
+	
+	//This method taking model class as input & return entity class as output
+	 
+	
+		public Person modelToEntityConversion(PersonDetails personDetails) {
+			
+			
+			// read the data from model class set to entity class
+			
+			Person person= new Person();
+			person.setId(personDetails.getId(222));
+			person.setfirstName(personDetails.getName("Aravind"));
+			person.setCreateBy(System.getProperty("user.name"));
+			person.setCreatAt(LocalDateTime.now());
+			
+			return product;
+			
+			
+			
+			
+			
+		}
+		
+		public List<Person> modelToEntityConversion1(List<PersonDetails>personDetails){
+			List<Person> products=new ArrayList<Person>();
+			//Reading the data from model class & setting the data to entity class
+			for(PersonDetails perDetail:personDetails)
+			{
+				Person person= new Person();
+				
+				person.set
+			
+			}
+			return persons;
+			
+			
+		}
+		
+
+}
